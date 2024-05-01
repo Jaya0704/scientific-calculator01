@@ -3,10 +3,10 @@ pipeline {
     environment {
         PORT = "85"
         DOCKERHUB_CREDENTIAL_ID = "dockerhub"
-        IMAGE_NAME = "yashas252/devops-project"
+        IMAGE_NAME = "bandaruj343342/devops-project"
         CONTAINER_NAME = "devops-project"
-        GIT_REPO = "https://github.com/Yashas-153/blog-website.git"
-        GIT_BRANCH = "main"
+        GIT_REPO = "https://github.com/Jaya0704/scientific-calculator01.git"
+        GIT_BRANCH = "master"
     }
     stages {
         stage('Checkout') {
